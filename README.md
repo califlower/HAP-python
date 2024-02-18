@@ -61,7 +61,8 @@ will take care of advertising it on the local network, setting a HAP server and
 running the Accessory. Take a look at [main.py](main.py) for a quick start on that.
 
 ```python
-from pyhap.accessory import Accessory, Category
+from pyhap.accessory import Accessory
+from pyhap.const import Category
 import pyhap.loader as loader
 
 class TemperatureSensor(Accessory):
